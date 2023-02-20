@@ -300,6 +300,15 @@ module.exports = {
       DEFAULT: '1',
     },
     fontFamily: {
+      Phudu: [
+        'Phudu',
+      ],
+      BebasNeue: [
+        'Bebas Neue'
+      ],
+      ShantellSans: [
+        'Shantell Sans'
+      ],
       sans: [
         'ui-sans-serif',
         'system-ui',
