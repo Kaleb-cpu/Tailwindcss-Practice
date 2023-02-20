@@ -1,5 +1,24 @@
 {
   "devDependencies": {
     "tailwindcss": "^3.2.7"
-  }
+  },
+  "name": "cpnt201-a3-npm-tailwind",
+  "version": "1.0.0",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "tailwind -i ./assets/css/input.css -o ./assets/css/output.css",
+    "watch": "tailwind -i ./assets/css/input.css -o ./assets/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kaleb-cpu/cpnt201-a3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kaleb-cpu/cpnt201-a3/issues"
+  },
+  "homepage": "https://github.com/Kaleb-cpu/cpnt201-a3#readme",
+  "description": ""
 }
