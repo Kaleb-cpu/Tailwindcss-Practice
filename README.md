@@ -8,5 +8,5 @@
 * [Red Panda](https://en.wikipedia.org/wiki/Red_panda)
 * [Tiger](https://en.wikipedia.org/wiki/Tiger)
 
-##### [Github Page](https://kaleb-cpu.github.io/cpnt201-a3/)
 ##### [Github Repo](https://github.com/Kaleb-cpu/cpnt201-a3)
+##### [Github Page](https://kaleb-cpu.github.io/cpnt201-a3/)
