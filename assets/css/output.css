@@ -622,7 +622,7 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
-@media (min-width: 904px) {
+@media (min-width: 900px) {
   .md\:my-5 {
     margin-top: 1.25rem;
     margin-bottom: 1.25rem;
@@ -667,7 +667,7 @@ video {
   }
 }
 
-@media (min-width: 1352px) {
+@media (min-width: 1260px) {
   .lg\:my-7 {
     margin-top: 1.75rem;
     margin-bottom: 1.75rem;
