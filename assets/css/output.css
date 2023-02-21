@@ -518,14 +518,9 @@ video {
   margin-right: auto;
 }
 
-.my-2 {
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.my-2\.5 {
-  margin-top: 0.625rem;
-  margin-bottom: 0.625rem;
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .grid {
@@ -607,6 +602,11 @@ video {
   line-height: 2.5rem;
 }
 
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
 .text-red-800 {
   --tw-text-opacity: 1;
   color: rgb(153 27 27 / var(--tw-text-opacity));
@@ -622,42 +622,10 @@ video {
   color: rgb(250 204 21 / var(--tw-text-opacity));
 }
 
-@media (min-width: 640px) {
-  .sm\:my-3 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .sm\:text-6xl {
-    font-size: 3.75rem;
-    line-height: 1;
-  }
-
-  .sm\:text-orange-400 {
-    --tw-text-opacity: 1;
-    color: rgb(251 146 60 / var(--tw-text-opacity));
-  }
-
-  .sm\:text-red-600 {
-    --tw-text-opacity: 1;
-    color: rgb(220 38 38 / var(--tw-text-opacity));
-  }
-}
-
-@media (min-width: 900px) {
-  .md\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .md\:my-3 {
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
-  }
-
-  .md\:my-3\.5 {
-    margin-top: 0.875rem;
-    margin-bottom: 0.875rem;
+@media (min-width: 904px) {
+  .md\:my-5 {
+    margin-top: 1.25rem;
+    margin-bottom: 1.25rem;
   }
 
   .md\:max-w-md {
@@ -673,19 +641,14 @@ video {
     background-color: rgb(148 163 184 / var(--tw-bg-opacity));
   }
 
-  .md\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
-  }
-
   .md\:text-8xl {
     font-size: 6rem;
     line-height: 1;
   }
 
-  .md\:text-red-200 {
+  .md\:text-orange-400 {
     --tw-text-opacity: 1;
-    color: rgb(254 202 202 / var(--tw-text-opacity));
+    color: rgb(251 146 60 / var(--tw-text-opacity));
   }
 
   .md\:text-red-600 {
@@ -704,8 +667,28 @@ video {
   }
 }
 
-@media (min-width: 1348px) {
+@media (min-width: 1352px) {
+  .lg\:my-7 {
+    margin-top: 1.75rem;
+    margin-bottom: 1.75rem;
+  }
+
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:text-6xl {
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .lg\:text-red-200 {
+    --tw-text-opacity: 1;
+    color: rgb(254 202 202 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-red-600 {
+    --tw-text-opacity: 1;
+    color: rgb(220 38 38 / var(--tw-text-opacity));
   }
 }
