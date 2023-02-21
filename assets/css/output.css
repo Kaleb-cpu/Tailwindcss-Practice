@@ -644,7 +644,7 @@ video {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .md\:mx-auto {
     margin-left: auto;
     margin-right: auto;
@@ -704,7 +704,7 @@ video {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1348px) {
   .lg\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
